@@ -10,5 +10,6 @@ F:\thirdwayv interview\BE\src\main\java\com\model\MixDeviceWithTemperatureModel.
 F:\thirdwayv interview\BE\src\main\java\com\repository\entity\Temperature.java
 F:\thirdwayv interview\BE\src\main\java\com\service\mapper\TemperatureMapper.java
 F:\thirdwayv interview\BE\src\main\java\com\SensorsReportStartPoint.java
+F:\thirdwayv interview\BE\src\main\java\com\util\WebSecurityConfig.java
 F:\thirdwayv interview\BE\src\main\java\com\model\DeviceModel.java
 F:\thirdwayv interview\BE\src\main\java\com\repository\TemperatureRepository.java

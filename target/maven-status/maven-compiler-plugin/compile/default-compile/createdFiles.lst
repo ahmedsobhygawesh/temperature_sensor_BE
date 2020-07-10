@@ -3,6 +3,7 @@ com\SensorsReportStartPoint.class
 com\service\impl\DeviceTemperatureServiceImpl.class
 com\controller\TemperatureSensorReaderController.class
 com\service\mapper\DeviceMapperImpl.class
+com\util\WebSecurityConfig.class
 com\model\TemperatureModel.class
 com\repository\DeviceRepository.class
 com\repository\entity\Temperature.class

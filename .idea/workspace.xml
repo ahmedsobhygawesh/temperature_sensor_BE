@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ba27047-2d87-4414-8a76-0ea7fc2f6585" name="Default Changelist" comment="" />
+    <list default="true" id="0ba27047-2d87-4414-8a76-0ea7fc2f6585" name="Default Changelist" comment="until add report">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/util/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/TemperatureSensorReaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/TemperatureSensorReaderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/impl/DeviceTemperatureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/DeviceTemperatureServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/TemperatureSensorReaderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/TemperatureSensorReaderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/DeviceModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/model/DeviceModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/MixDeviceWithTemperatureModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/model/MixDeviceWithTemperatureModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/TemperatureModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/model/TemperatureModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/repository/entity/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/repository/entity/Device.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/DeviceTemperatureServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/impl/DeviceTemperatureServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/util/HexConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/util/HexConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/service/mapper/DeviceMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/service/mapper/DeviceMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/service/mapper/TemperatureMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/service/mapper/TemperatureMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/thirdwayv-sensors-report-BE-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/thirdwayv-sensors-report-BE-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +34,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +45,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1eTDNI1vO0pmUv3Guv86iiEL6Tt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -64,6 +87,10 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="until add report" />
+    <option name="LAST_COMMIT_MESSAGE" value="until add report" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2446" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594340178365">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -85,46 +112,54 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594343174799" />
-    <state x="2635" y="224" key="#xdebugger.evaluate" timestamp="1594373426227">
+    <state x="2635" y="224" key="#xdebugger.evaluate" timestamp="1594385291052">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2635" y="224" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594373426227" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1594373380199">
+    <state x="2635" y="224" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594385291052" />
+    <state x="2497" y="115" key="CommitChangelistDialog2" timestamp="1594387132872">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594373380199" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1594373380199">
+    <state x="2497" y="115" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594387132872" />
+    <state width="1877" height="404" key="GridCell.Tab.0.bottom" timestamp="1594387133091">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594373380199" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1594373380199">
+    <state width="1877" height="404" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594387133091" />
+    <state width="1877" height="404" key="GridCell.Tab.0.center" timestamp="1594387133091">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594373380199" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1594373380199">
+    <state width="1877" height="404" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594387133091" />
+    <state width="1877" height="404" key="GridCell.Tab.0.left" timestamp="1594387133091">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594373380199" />
-    <state width="1877" height="280" key="GridCell.Tab.1.bottom" timestamp="1594373254838">
+    <state width="1877" height="404" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594387133091" />
+    <state width="1877" height="404" key="GridCell.Tab.0.right" timestamp="1594387133091">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594373254838" />
-    <state width="1877" height="280" key="GridCell.Tab.1.center" timestamp="1594373254838">
+    <state width="1877" height="404" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594387133091" />
+    <state width="1877" height="404" key="GridCell.Tab.1.bottom" timestamp="1594387133091">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594373254838" />
-    <state width="1877" height="280" key="GridCell.Tab.1.left" timestamp="1594373254838">
+    <state width="1877" height="404" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594387133091" />
+    <state width="1877" height="404" key="GridCell.Tab.1.center" timestamp="1594387133091">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594373254838" />
-    <state width="1877" height="280" key="GridCell.Tab.1.right" timestamp="1594373254838">
+    <state width="1877" height="404" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594387133091" />
+    <state width="1877" height="404" key="GridCell.Tab.1.left" timestamp="1594387133091">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594373254838" />
+    <state width="1877" height="404" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594387133091" />
+    <state width="1877" height="404" key="GridCell.Tab.1.right" timestamp="1594387133091">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="404" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594387133091" />
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594371360981">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594371360981" />
+    <state x="2056" y="244" key="run.anything.popup" timestamp="1594383280851">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2056" y="244" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594383280851" />
     <state x="3023" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1594337203891">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -140,12 +175,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/TemperatureSensorReaderController.java</url>
-          <line>24</line>
+          <line>26</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/TemperatureSensorReaderController.java</url>
-          <line>29</line>
+          <line>31</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -165,13 +200,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/TemperatureSensorReaderController.java</url>
-          <line>16</line>
+          <line>18</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/TemperatureSensorReaderController.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="19" />
+          <line>16</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/service/impl/DeviceTemperatureServiceImpl.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/service/impl/DeviceTemperatureServiceImpl.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

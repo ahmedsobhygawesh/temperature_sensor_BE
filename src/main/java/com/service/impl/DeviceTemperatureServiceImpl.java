@@ -80,8 +80,8 @@ public class DeviceTemperatureServiceImpl implements DeviceTemperatureService {
             mixDTObj.setTemperatureM(new TemperatureModel());
 
             try {
-                mixDTObj.getDeviceM().setId(Long.parseLong(dt.substring(0, deviceLength - 1)));
-                mixDTObj.getTemperatureM().setId(Long.parseLong(dt.substring(deviceLength, deviceLength + tempLength)));
+                mixDTObj.getDeviceM().setId(Long.parseLong(dt.substring(0, deviceLength), 16));
+                mixDTObj.getTemperatureM().setDegree(Short.parseShort(dt.substring(deviceLength, deviceLength + tempLength), 16));
                 mixDTObj.getTemperatureM().setReceivedDate(LocalDateTime.now());
             } catch (NumberFormatException e) {
                 e.printStackTrace();
