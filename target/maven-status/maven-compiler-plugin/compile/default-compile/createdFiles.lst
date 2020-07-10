@@ -1,0 +1,16 @@
+com\repository\entity\Device.class
+com\SensorsReportStartPoint.class
+com\service\impl\DeviceTemperatureServiceImpl.class
+com\controller\TemperatureSensorReaderController.class
+com\service\mapper\DeviceMapperImpl.class
+com\model\TemperatureModel.class
+com\repository\DeviceRepository.class
+com\repository\entity\Temperature.class
+com\service\mapper\DeviceMapper.class
+com\util\HexConverter.class
+com\model\MixDeviceWithTemperatureModel.class
+com\model\DeviceModel.class
+com\service\mapper\TemperatureMapper.class
+com\repository\TemperatureRepository.class
+com\service\DeviceTemperatureService.class
+com\service\mapper\TemperatureMapperImpl.class
