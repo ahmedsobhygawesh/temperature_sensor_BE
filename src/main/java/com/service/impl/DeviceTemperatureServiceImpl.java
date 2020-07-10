@@ -13,6 +13,8 @@ import com.service.mapper.TemperatureMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +38,7 @@ public class DeviceTemperatureServiceImpl implements DeviceTemperatureService {
     @Autowired TemperatureMapper temperatureMapper;
 
     @Override
+    @Transactional
     public void saveDeviceTemperature(String devicesTemp) {
         List<MixDeviceWithTemperatureModel> mixRetrievedList = convertHexToDecimalForDevicesWithTemperature(devicesTemp);
 
@@ -65,22 +68,25 @@ public class DeviceTemperatureServiceImpl implements DeviceTemperatureService {
         int counter = 1, initial = 0, loopTimes = sensorHexValues.length() / deviceTempLength;
         List<String> separatedDevicesAndTemperatures = new ArrayList<>();
         List<MixDeviceWithTemperatureModel> mixDAndTList = new ArrayList<>();
-
         do {
             separatedDevicesAndTemperatures.add(sensorHexValues.substring(initial, deviceTempLength * counter));
             initial = counter * deviceTempLength;
             counter++;
         }
         while (counter <= loopTimes);
+        setValuesInBothDeviceAndTemperatureObj(separatedDevicesAndTemperatures, mixDAndTList);
+        return mixDAndTList;
+    }
 
+    private void setValuesInBothDeviceAndTemperatureObj(List<String> separatedDevicesAndTemperatures, List<MixDeviceWithTemperatureModel> mixDAndTList) {
         separatedDevicesAndTemperatures.forEach(dt -> {
             MixDeviceWithTemperatureModel mixDTObj = new MixDeviceWithTemperatureModel();
-
             mixDTObj.setDeviceM(new DeviceModel());
             mixDTObj.setTemperatureM(new TemperatureModel());
-
             try {
                 mixDTObj.getDeviceM().setId(Long.parseLong(dt.substring(0, deviceLength), 16));
+                mixDTObj.getDeviceM().setModel("Dummy" + mixDTObj.getDeviceM().getId());
+                mixDTObj.getDeviceM().setName("Dummy" + mixDTObj.getDeviceM().getId());
                 mixDTObj.getTemperatureM().setDegree(Short.parseShort(dt.substring(deviceLength, deviceLength + tempLength), 16));
                 mixDTObj.getTemperatureM().setReceivedDate(LocalDateTime.now());
             } catch (NumberFormatException e) {
@@ -88,7 +94,6 @@ public class DeviceTemperatureServiceImpl implements DeviceTemperatureService {
             }
             mixDAndTList.add(mixDTObj);
         });
-        return mixDAndTList;
     }
 
 

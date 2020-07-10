@@ -1,8 +1,10 @@
 package com.controller;
 
+import com.model.DeviceModel;
 import com.service.DeviceTemperatureService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "*", allowedHeaders = "*")
@@ -23,13 +25,13 @@ public class TemperatureSensorReaderController {
     }
 
     @GetMapping("/temperatures")
-    void findLatestTemperatures() {
-        deviceTemperatureService.findLatestTemperature();
+    List<DeviceModel> findLatestTemperatures() {
+        return deviceTemperatureService.findLatestTemperature();
     }
 
     @GetMapping("temperatures/devices/{deviceId}")
-    void findLatestTemperatures(@PathVariable short deviceId) {
-        deviceTemperatureService.findDeviceTemperatures(deviceId);
+    List<DeviceModel> findLatestTemperatures(@PathVariable short deviceId) {
+        return deviceTemperatureService.findDeviceTemperatures(deviceId);
     }
 
 }
